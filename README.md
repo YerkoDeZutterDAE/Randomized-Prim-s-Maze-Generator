@@ -12,6 +12,7 @@ This is for my GamePlay Programing research exam.
 this Maze Generaroe uses the Randomized Prim's algorithem. So it adds more random path, turns and unpredictability into the maze.
 
 prosses:
+
 The maze starts out as just a grid full of walls. And 1 free space.
 It well then take 1 of the walls next to the free space randomly.
 
