@@ -25,6 +25,15 @@ And it will add the neighboring walls into the possible changeable walls.
 So it can take a random one out of that list. To turn into a free space.
 
 
+New Maze:
+
+It will always try to make a new free space so long als there is a wall in the possible changeable walls list.
+
+When making a new maze it just refils the whole grid whit wals. And frees up the 1st space. Witch in turn adds 2 walls into the possible changeable walls list.
+
+And due to adding more into that list. it will automatacly make a new maze.
+
+
 
 # Maze-Generator whit A*
 
