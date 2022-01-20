@@ -35,6 +35,9 @@ And due to adding more into that list. it will automatacly make a new maze.
 
 ## Diferent algorithems
 
+There are multiple different maze generation algorithems. That are sometime's used.
+
+###  depth-first search
 
 
 # Maze-Generator whit A*
