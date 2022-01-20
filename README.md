@@ -44,8 +44,6 @@ When it cant make a new free space next to the most current freed up space. It w
 
 This however does give the problem that there will be less/shorter branching paths. That leed to dead ends.
 
-But this algorithm can lead to a bit more variety in solutions.
-
 ###  Randomized Kruskal's algorithm:
 Like the Randomized Prim's algorithem. Randomized Kruskal's algorithm does not take a neighboring wall of the most curently viseted free space.
 But unlike the Randomized Prim's algorithem. Randomized Kruskal's algorithm does also not take a wall next to a already opend free space.
