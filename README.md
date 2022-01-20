@@ -37,7 +37,13 @@ And due to adding more into that list. it will automatacly make a new maze.
 
 There are multiple different maze generation algorithems. That are sometime's used.
 
-###  depth-first search
+###  depth-first search:
+
+
+###  depth of recursion:
+
+
+###  Randomized Kruskal's algorithm:
 
 
 # Maze-Generator whit A*
