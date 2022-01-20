@@ -40,9 +40,6 @@ There are multiple different maze generation algorithems. That are sometime's us
 ###  depth-first search:
 
 
-###  depth of recursion:
-
-
 ###  Randomized Kruskal's algorithm:
 
 
