@@ -38,10 +38,19 @@ And due to adding more into that list. it will automatacly make a new maze.
 There are multiple different maze generation algorithems. That are sometime's used.
 
 ###  depth-first search:
+Like the Randomized Prim's algorithem. Depth-first search also takes a random wall. 
+But unlike the Randomized Prim's algorithem. Depth-first search only takes a random wall from the neighboring walls of the most curently freed up space.
+When it cant make a new free space next to the most current freed up space. It will go to the most current one that can make new free spaces next to himself.
 
+This however does give the problem that there will be less/shorter branching paths. That leed to dead ends.
+
+But this algorithm can lead to a bit more variety in solutions.
 
 ###  Randomized Kruskal's algorithm:
+Like the Randomized Prim's algorithem. Randomized Kruskal's algorithm does not take a neighboring wall of the most curently viseted free space.
+But unlike the Randomized Prim's algorithem. Randomized Kruskal's algorithm does also not take a wall next to a already opend free space.
 
+It will take absolutely any wall still left in the grid that can be made into a freesapce.
 
 # Maze-Generator whit A*
 
