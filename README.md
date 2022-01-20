@@ -33,6 +33,8 @@ When making a new maze it just refils the whole grid whit wals. And frees up the
 
 And due to adding more into that list. it will automatacly make a new maze.
 
+## Diferent algorithems
+
 
 
 # Maze-Generator whit A*
