@@ -55,3 +55,10 @@ It will take absolutely any wall still left in the grid that can be made into a 
 # Maze-Generator whit A*
 
 ![ezgif-7-5cbe21f07c](https://user-images.githubusercontent.com/24572084/150222048-7bf05f3f-17ef-4867-8d15-8b6d9e6f5d46.gif)
+
+Finaly i added the maze generator whit the A* pathfinding algorithm.
+
+A few thing needed to be added whit importing the maze generator to the A* algorithm.
+Mainly that i needed to actualy spesefy the wals are actual walls. so the character does not just simply walk over the walls.
+
+So i simply went over all the walls after the maze generation was done. And removed any connections to eatch wall.
